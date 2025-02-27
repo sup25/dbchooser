@@ -1,0 +1,34 @@
+{
+  "name": "dbchooser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:postgres": "ts-node postgres/index.ts",
+    "start:mongo": "ts-node mongo/index.ts",
+    "test:load": "ts-node load-test.ts",
+    "report": "ts-node report.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.13.5",
+    "@types/pg": "^8.11.11",
+    "@types/sequelize": "^4.28.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  }
+}

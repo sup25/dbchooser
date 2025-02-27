@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json  # Optional: include if you use yarn exclusively
+
+# TypeScript
+*.tsbuildinfo
+dist/  # If you compile TS to JS into a dist folder
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Database files (local instances)
+*.db
+*.sqlite
+mongo_data/  # If MongoDB creates local data dirs
+pg_data/     # If PostgreSQL creates local data dirs
+
+# Test output files
+results.json
+report.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
